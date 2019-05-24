@@ -17,7 +17,7 @@ def index(request):
 def havesine(lat1, lon1, lat2, lon2):
     '''
         https://en.wikipedia.org/wiki/Haversine_formula
-        Haversine Formula 를 이용해 위도/경도가 주어졌을 때, 구 형태에서의 두 점사이의 거리를 구한다.
+        Haversine Formula 를 이용해 위도/경도가 주어졌을 때, 구 형태에서의 두 점사이의 거리를 구한다. 
     '''
     '''# convert decimal degrees to radians'''
     lon1, lat1, lon2, lat2 = map(radians, [lon1, lat1, lon2, lat2])
