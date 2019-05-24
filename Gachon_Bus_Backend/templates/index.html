@@ -1,0 +1,9 @@
+<form method="post">
+    lat1<input id="lat1" type="text" name="lat1" value="">
+    lon1<input id="lon1" type="text" name="lon1" value=""><br>
+    lat2<input id="lat2" type="text" name="lat2" value="">
+    lon2<input id="lon2" type="text" name="lon2" value=""><br><br>
+    <input type="submit" value="OK">
+    {% csrf_token %}
+</form>
+Dist: {{ dist }} km
