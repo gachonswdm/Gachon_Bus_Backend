@@ -10,6 +10,5 @@ router.register(r'locations', views.LocationViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
-    path('<int:pk>',views.LocationViewSet)
 ]
 
