@@ -34,6 +34,6 @@ def havesine(lat1, lon1, lat2, lon2):
 '''
 In AndroidAPP
 double latitude; // static 클래스 변수 위도
-double longitube; // static 클래스 변수 경도
+double longitude; // static 클래스 변수 경도
 
 '''
